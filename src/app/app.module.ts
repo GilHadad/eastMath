@@ -7,6 +7,7 @@ import { LeasonHeaderComponent } from './leasons/leason-header/leason-header.com
 import { LeasonScaleComponent } from './leasons/leason-scale/leason-scale.component';
 import { LiveExerciseContainerComponent } from './leasons/live-exercise-container/live-exercise-container.component';
 import { HintsComponent } from './leasons/live-exercise-container/hints/hints.component';
+import { ExrciseHistoryComponent } from './exrcise-history/exrcise-history.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HintsComponent } from './leasons/live-exercise-container/hints/hints.co
     LeasonScaleComponent,
     LiveExerciseContainerComponent,
     HintsComponent,
+    ExrciseHistoryComponent,
   ],
   imports: [
     BrowserModule
