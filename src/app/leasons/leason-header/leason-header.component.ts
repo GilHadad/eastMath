@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LeasonHeaderComponent implements OnInit {
 
   title: String = 'שלום כיתה א';
-  classType: String = 'aaa';
+  classType: String = 'aaa';//dmiles77:what is it?
 
   constructor() { }
 

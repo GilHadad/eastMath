@@ -5,8 +5,9 @@ interface exercise {
   question: string;
   answer: string;
   hint: boolean;
-  statTime: Date;
+  startTime: Date;
   endTime?: Date;
+  rankFromOneToTen?: number;
 }
 
 @Component({
@@ -19,18 +20,18 @@ export class ExerciseOneToTenFingersComponent implements OnInit {
   exercise: exercise;
   constructor() { }
 
-
   ngOnInit() {
-    console.log(this.imagesSrc)
     this.exercise = this.createNewExercise();
   }
+  
   createNewExercise(): exercise {
     const num = Math.floor(Math.random() * 9) + 1
     let exercise = {
       question: this.imagesSrc[`finger_${num}`],
       answer: this.imagesSrc[`finger_${num}`],
       hint: false,
-      statTime: new Date()
+      startTime: new Date(),
+      rankFromOneToTen: 10
     }
     console.log(exercise)
     return exercise

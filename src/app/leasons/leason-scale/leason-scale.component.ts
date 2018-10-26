@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as data from './strings.json';
 
 @Component({
   selector: 'app-leason-scale',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leason-scale.component.css']
 })
 export class LeasonScaleComponent implements OnInit {
+
+  imagesSrc = (<any>data).images;
 
   constructor() { }
 
