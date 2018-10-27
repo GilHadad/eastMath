@@ -1,5 +1,10 @@
 {
     "images": {
-        "scale": "assets/scale-images/scale.png"
+        "scale": "assets/scale-images/scale.png",
+        "Face_1": "assets/scale-images/Face_1.png",
+        "Face_2": "assets/scale-images/Face_2.png",
+        "Face_3": "assets/scale-images/Face_3.png",
+        "Face_4": "assets/scale-images/Face_4.png",
+        "Face_5": "assets/scale-images/Face_5.png"
     }
 }
