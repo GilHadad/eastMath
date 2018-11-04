@@ -1,11 +1,60 @@
 .main-container {
-    background-color: #00cc66;
-    padding: 25px;
+    background-color: #002ecc;
     text-align: center;
-    ;
-},
+}
 
-.exericse-img {
-    height: 10px;
+button{
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+}
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+.button-three{
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 10px;
+}
+.button-three {
+  position: relative;
+  background-color: #f39c12;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+.button-three:hover{
+  background:#fff;
+  box-shadow:0px 2px 10px 5px #97B1BF;
+  color:#000;
+}
+.button-three:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
 
+.button-three:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+img {
+  padding-top: 5%;
 }

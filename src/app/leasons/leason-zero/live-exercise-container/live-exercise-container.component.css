@@ -1,4 +1,5 @@
 .main-container {
-    background-color: #ffcc66;
-    padding-top: 20px;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 5%;
 }
