@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app.routing';
+import { DndModule } from 'ng2-dnd';
 
 
 import { AppComponent } from './app.component';
@@ -27,7 +28,8 @@ import { DrogAndDropComponent } from './test/drog-and-drop/drog-and-drop.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DndModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
