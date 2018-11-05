@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app.routing';
+
 
 import { AppComponent } from './app.component';
 import { LeasonZeroComponent } from './leasons/leason-zero/leason-zero.component';
@@ -22,7 +24,8 @@ import { ExerciseOneToTenHintsComponent } from './leasons/leason-zero/exercise-o
     ExerciseOneToTenHintsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
