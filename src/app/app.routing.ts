@@ -23,7 +23,7 @@ const appRoutes: Routes = [
         component: ExerciseOneToTenFingersComponent,
     },
     {
-        path: 'tests',
+        path: 'tests-dnd',
         component: DrogAndDropComponent,
     },
 ];
