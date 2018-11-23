@@ -4,7 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { ExerciseOneToTenFingersComponent } from './leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component';
 import { DrogAndDropComponent } from './test/drog-and-drop/drog-and-drop.component';
 import { LeasonZeroComponent } from './leasons/leason-zero/leason-zero.component';
-
+import { ExerciseMissingNumberComponent
+} from './leasons/leason-zero/exercise-missing-number/exercise-missing-number/exercise-missing-number.component';
 
 
 const appRoutes: Routes = [
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
         path: 'tests-dnd',
         component: DrogAndDropComponent,
     },
+    {
+      path: 'exercise-missing-number',
+      component: ExerciseMissingNumberComponent,
+  },
 ];
 
 
