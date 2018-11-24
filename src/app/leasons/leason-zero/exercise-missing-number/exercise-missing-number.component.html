@@ -1,5 +1,12 @@
 <div class="row">
-    <div class="col text-center">
-      yay
+    <div class="col text-center no-padding" *ngFor="let item of series">
+      <div *ngIf="item.active">{{item.number}}</div>
     </div>
+</div>
+
+
+<div class="row">
+  <div class="col-3 text-center" *ngFor="let answer of answerBank">
+    <div>{{answer}}</div>
+  </div>
 </div>
