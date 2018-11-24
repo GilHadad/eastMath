@@ -1,0 +1,9 @@
+<mat-list>
+  <h3 mat-subheader>DEV - LINKS</h3>
+  <div *ngFor="let route of allRoutes">
+    <mat-list-item routerLink={{route}} routerLinkActive='active'>
+      {{route}}
+    </mat-list-item>
+  </div>
+
+</mat-list>

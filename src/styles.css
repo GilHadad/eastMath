@@ -1,5 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "node_modules/ng2-dnd/bundles/style.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 .testing-dnd-container {
   width: 100%;

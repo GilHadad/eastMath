@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as data from './strings.json';
 
-interface exercise {
+interface Exercise {
   question: string;
   answer: string;
   hint: boolean;
@@ -17,23 +17,23 @@ interface exercise {
 })
 export class ExerciseOneToTenFingersComponent implements OnInit {
   imagesSrc = (<any>data).images;
-  exercise: exercise;
+  exercise: Exercise;
   constructor() { }
 
   ngOnInit() {
     this.exercise = this.createNewExercise();
   }
 
-  createNewExercise(): exercise {
-    const num = Math.floor(Math.random() * 9) + 1
-    let exercise = {
+  createNewExercise(): Exercise {
+    const num = Math.floor(Math.random() * 9) + 1;
+    const newExercise = {
       question: this.imagesSrc[`finger_${num}`],
       answer: this.imagesSrc[`finger_${num}`],
       hint: false,
       startTime: new Date(),
       rankFromOneToFive: 5
-      //create scale
-    }
-    return exercise
+      // create scale
+    };
+    return newExercise;
   }
 }

@@ -5,15 +5,21 @@ import { ExerciseOneToTenFingersComponent } from './leasons/leason-zero/exercise
 import { DrogAndDropComponent } from './test/drog-and-drop/drog-and-drop.component';
 import { LeasonZeroComponent } from './leasons/leason-zero/leason-zero.component';
 import { ExerciseMissingNumberComponent
-} from './leasons/leason-zero/exercise-missing-number/exercise-missing-number/exercise-missing-number.component';
+} from './leasons/leason-zero/exercise-missing-number/exercise-missing-number.component';
+import { NavDevComponent } from './nav-dev/nav-dev.component';
 
 
-const appRoutes: Routes = [
+export const appRoutes: Routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: 'dev',
         pathMatch: 'full',
     },
+    {
+      path: 'dev',
+      component: NavDevComponent,
+
+  },
     {
         path: 'home',
         component: LeasonZeroComponent,
@@ -33,6 +39,12 @@ const appRoutes: Routes = [
   },
 ];
 
+function getAllRoutes(): String[] {
+  const allRoutes = appRoutes.map(route => {
+    return route.path;
+  });
+  return allRoutes;
+}
 
 
 @NgModule({
