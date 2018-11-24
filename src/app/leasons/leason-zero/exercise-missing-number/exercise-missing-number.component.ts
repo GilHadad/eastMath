@@ -10,6 +10,7 @@ import { arrayShuffle } from 'src/app/test/app.utils';
 export class ExerciseMissingNumberComponent implements OnInit {
   series: any[];
   missingNumber: Number;
+  selectedAnswer: any;
   bank: Number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   answerBank: Number[];
   optionsNumber = 4;
@@ -21,7 +22,6 @@ export class ExerciseMissingNumberComponent implements OnInit {
 
   createSeries(startAt, length) {
     let series = [];
-    // length = startAt + length;
     for (let i = startAt; i < startAt + length; i++) {
       series.push({ number: i, active: true });
     }
@@ -61,6 +61,11 @@ export class ExerciseMissingNumberComponent implements OnInit {
     // console.log(this.missingNumber);
     // console.log(allOptions);
     // console.log(this.answerBank);
+  }
+
+  palceDragedAnswer($event: any) {
+    console.log($event);
+    this.selectedAnswer = $event;
   }
 
 
