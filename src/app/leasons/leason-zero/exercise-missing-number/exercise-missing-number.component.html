@@ -1,6 +1,5 @@
-
 <div class="row">
-  <div class="col text-center no-padding" *ngFor="let item of series">
+  <div class="col text-center" *ngFor="let item of exercise.series">
     <div *ngIf="item.active; else answerPlace">{{item.number}}</div>
     <ng-template #answerPlace>
       <div class="col text-center">
@@ -12,12 +11,14 @@
 
 
 <div class="row">
-  <div class="col-3 text-center" *ngFor="let answer of answerBank">
+  <div class="col-3 text-center" *ngFor="let answer of exercise.answerBank">
     <div (click)="selectAnswer(answer)">{{answer}}</div>
   </div>
 </div>
 
-
+<div class="row">
+  <pre class="col-3" *ngFor="let obj of exerciseHistory">{{obj | json}}</pre>
+</div>
 <!-- <mat-divider></mat-divider>
 
 <div class="row"><div class="col text-center no-padding">=== OLD ===</div></div>

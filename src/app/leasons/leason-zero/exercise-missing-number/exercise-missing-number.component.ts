@@ -1,14 +1,25 @@
 import { Component, OnInit } from '@angular/core';
+import * as conf from './config.json';
+import { arrayShuffle } from 'src/app/app.utils';
 
-import { arrayShuffle } from 'src/app/test/app.utils';
+interface Statistics {
+  totalTime: number;
+  haveWrongAnswers: boolean;
+  score: number;
+}
 
 interface Exercise {
-  series: any[];
-  missingNumber: Number;
-  selectedAnswer: any;
+  series: Number[];
+  answer: Number;
   bank: Number[];
   answerBank: Number[];
   optionsNumber: Number;
+  qSeriesSartFrom: number;
+  qSeriesLenght: number;
+  wrongAnswers: Number[];
+  startTime: Number;
+  endTime: Number;
+  statistics?: Statistics;
 }
 
 @Component({
@@ -20,29 +31,47 @@ interface Exercise {
 
 
 export class ExerciseMissingNumberComponent implements OnInit {
-  series: any[];
-  missingNumber: Number;
-  selectedAnswer: any;
-  bank: Number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  answerBank: Number[];
-  optionsNumber: Number = 4;
-  qSeriesSartFrom: Number;
-  qSeriesLenght: Number = 4;
+  confExercise = (<any>conf).exercise;
+  exerciseHistory: Exercise[] = [];
+  exercise: Exercise = {
+    series: [],
+    answer: null,
+    bank: this.confExercise.bank,
+    answerBank: [],
+    optionsNumber: this.confExercise.optionsNumber,
+    qSeriesSartFrom: null,
+    qSeriesLenght: this.confExercise.qSeriesLenght,
+
+    wrongAnswers: [],
+    startTime: null,
+    endTime: null
+  };
+
   constructor() { }
 
   ngOnInit() {
-    this.qSeriesSartFrom = Math.floor(Math.random() * 7) + 1;
-    this.series = this.createSeries(this.qSeriesSartFrom, this.qSeriesLenght);
+
+    this.setExercise();
+
+    console.log(this.exerciseHistory);
+    console.log(this.exercise);
   }
 
-  createSeries(startAt, length) {
+  setExercise() {
+    this.exercise.startTime = Date.now();
+    this.exercise.qSeriesSartFrom = Math.floor(Math.random() * 7) + 1;
+    this.exercise.series = this.createSeries();
+  }
+  createSeries() {
+    const startAt = this.exercise.qSeriesSartFrom;
+    const length = this.exercise.qSeriesLenght;
     let series = [];
     for (let i = startAt; i < startAt + length; i++) {
       series.push({ number: i, active: true });
     }
 
     const missingNumber = Math.floor(Math.random() * length) + startAt;
-    this.missingNumber = missingNumber;
+    this.exercise.answer = missingNumber;
     series = series.map(item => {
       if (item.number === missingNumber) {
         return { number: item.number, active: false };
@@ -50,32 +79,49 @@ export class ExerciseMissingNumberComponent implements OnInit {
       return item;
     });
 
-    this.createBank(this.optionsNumber);
+    this.createBank(this.exercise.optionsNumber);
     return series;
 
   }
 
   createBank(optionsNumber) {
-    this.answerBank = [];
-    let allOptions = this.bank.filter(item => item !== this.missingNumber);
+    this.exercise.answerBank = [];
+    let allOptions = this.exercise.bank.filter(item => item !== this.exercise.answer);
 
     for (let i = 0; i < optionsNumber - 1; i++) {
       const selectedNum = allOptions[Math.floor(Math.random() * allOptions.length)];
-      this.answerBank.push(selectedNum);
+      this.exercise.answerBank.push(selectedNum);
       allOptions = allOptions.filter(item => item !== selectedNum);
     }
 
-    this.answerBank.push(this.missingNumber);
-    this.answerBank = arrayShuffle(this.answerBank);
+    this.exercise.answerBank.push(this.exercise.answer);
+    this.exercise.answerBank = arrayShuffle(this.exercise.answerBank);
   }
 
   selectAnswer(answer) {
-    if (answer === this.missingNumber) {
+    if (answer === this.exercise.answer) {
+      this.exercise.endTime = Date.now();
+      const histortItem = {
+        series: this.exercise.series,
+        answer: this.exercise.answer,
+        bank: this.exercise.bank,
+        answerBank: this.exercise.answerBank,
+        optionsNumber: this.exercise.optionsNumber,
+        qSeriesSartFrom: this.exercise.qSeriesSartFrom,
+        qSeriesLenght: this.exercise.qSeriesLenght,
+        wrongAnswers: this.exercise.wrongAnswers,
+        startTime: this.exercise.startTime,
+        endTime: this.exercise.endTime
+      };
+
+      this.exerciseHistory.push(histortItem);
+
+      console.log(this.exerciseHistory);
       this.ngOnInit();
     } else {
-
-      const answerIndex = this.answerBank.indexOf(answer);
-      this.answerBank.splice(answerIndex, 1);
+      this.exercise.wrongAnswers.push(answer);
+      const answerIndex = this.exercise.answerBank.indexOf(answer);
+      this.exercise.answerBank.splice(answerIndex, 1);
     }
   }
 
