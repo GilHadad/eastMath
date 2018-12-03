@@ -13,5 +13,8 @@
         "finger_10": "assets/fingers-images/finger-5.png",
         "equal": "assets/fingers-images/equal.png",
         "question_mark": "assets/fingers-images/question-mark.png"
+    },
+    "configStrings":{
+      "answerOptions":[1,2,3,4,5]
     }
 }

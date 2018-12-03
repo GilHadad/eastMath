@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df6953d6-56f2-4a2d-8b8d-27ce816a8616" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/leasons/leason-scale/leason-scale.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-scale/leason-scale.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers-images/finger-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fingers-images/finger-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers-images/finger-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fingers-images/finger-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers-images/finger-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fingers-images/finger-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers-images/finger-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fingers-images/finger-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers-images/finger-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fingers-images/finger-5.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,72 +23,59 @@
     <session id="-739667077">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
+          <entry key="css" value="7" />
           <entry key="html" value="4" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="png" value="3" />
-          <entry key="ts" value="7" />
+          <entry key="ts" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
+          <entry key="CSS" value="7" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="3" />
-          <entry key="JSON" value="1" />
-          <entry key="TypeScript" value="7" />
+          <entry key="JSON" value="2" />
+          <entry key="TypeScript" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="103" />
-          <entry key="html" value="83" />
+          <entry key="css" value="182" />
+          <entry key="html" value="225" />
+          <entry key="json" value="57" />
+          <entry key="ts" value="942" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="103" />
-          <entry key="HTML" value="83" />
+          <entry key="CSS" value="182" />
+          <entry key="HTML" value="225" />
+          <entry key="JSON" value="57" />
+          <entry key="TypeScript" value="942" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -109,22 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -133,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -142,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/app/app.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -151,7 +120,46 @@
         <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="34" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -164,16 +172,26 @@
       <find>#ffcc66</find>
       <find>1000px</find>
       <find>app-leason-zero</find>
-      <find>800</find>
       <find>20px</find>
       <find>500px</find>
       <find>20</find>
       <find>margin: 20px</find>
       <find>fff</find>
       <find>500</find>
-      <find>app-exercise-one-to-ten-fingers</find>
       <find>&lt;app-exercise-one-to-ten-fingers&gt;&lt;/app-exercise-one-to-ten-fingers&gt;</find>
       <find>20%</find>
+      <find>app-exercise-one-to-ten-fingers</find>
+      <find>Exercise</find>
+      <find>button-three</find>
+      <find>800</find>
+      <find>answer</find>
+      <find>backgrou</find>
+      <find>qOption</find>
+      <find>strings</find>
+      <find>data</find>
+      <find>imagesSrc</find>
+      <find>answers</find>
+      <find>rankFromOneToFive</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,11 +203,13 @@
         <option value="$PROJECT_DIR$/app/app.component.html" />
         <option value="$PROJECT_DIR$/app/app.component.css" />
         <option value="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html" />
-        <option value="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css" />
         <option value="$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css" />
         <option value="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.html" />
         <option value="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.html" />
+        <option value="$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css" />
         <option value="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.css" />
+        <option value="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/config.json" />
+        <option value="$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.ts" />
       </list>
     </option>
   </component>
@@ -211,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,19 +265,10 @@
               <item name="leason-zero" type="462c0819:PsiDirectoryNode" />
               <item name="exercise-one-to-ten-fingers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="leasons" type="462c0819:PsiDirectoryNode" />
-              <item name="leason-zero" type="462c0819:PsiDirectoryNode" />
-              <item name="live-exercise-container" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,24 +302,20 @@
       <option name="presentableId" value="Default" />
       <updated>1541238981448</updated>
       <workItem from="1541238986384" duration="14880000" />
+      <workItem from="1543821026848" duration="18235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14880000" />
+    <option name="totallyTimeSpent" value="33115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37202382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28497022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -315,6 +323,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,6 +361,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -364,66 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/leason-zero.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -437,14 +428,47 @@
     <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/live-exercise-container/live-exercise-container.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/exercise-one-to-ten-fingers.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/leasons/leason-zero/exercise-one-to-ten-fingers/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
