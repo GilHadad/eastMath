@@ -1,3 +1,27 @@
+
+<div class="row">
+  <div class="col text-center no-padding" *ngFor="let item of series">
+    <div *ngIf="item.active; else answerPlace">{{item.number}}</div>
+    <ng-template #answerPlace>
+      <div class="col text-center">
+        <div *ngIf="selectedAnswer"></div>
+      </div>
+    </ng-template>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-3 text-center" *ngFor="let answer of answerBank">
+    <div (click)="selectAnswer(answer)">{{answer}}</div>
+  </div>
+</div>
+
+
+<!-- <mat-divider></mat-divider>
+
+<div class="row"><div class="col text-center no-padding">=== OLD ===</div></div>
+
 <div class="row">
     <div class="col text-center no-padding" *ngFor="let item of series">
       <div *ngIf="item.active; else answerPlace">{{item.number}}</div>
@@ -14,12 +38,4 @@
   <div class="col-3 text-center" *ngFor="let answer of answerBank">
     <div dnd-draggable [dragEnabled]="true" [dragData]="answer">{{answer}}</div>
   </div>
-</div>
-
-<hr />
-
-<div class="row">
-  <div class="col text-center" dnd-droppable (onDropSuccess)="palceDragedAnswer($event)" style="width: 100%; height: 1000px">
-    <div *ngIf="selectedAnswer">{{selectedAnswer.dragData}}</div>
-  </div>
-</div>
+</div> -->
