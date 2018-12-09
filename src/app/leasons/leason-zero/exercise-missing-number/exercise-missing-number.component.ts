@@ -4,21 +4,21 @@ import { arrayShuffle } from 'src/app/app.utils';
 
 interface Statistics {
   totalTime: number;
-  haveWrongAnswers: boolean;
+  wrongAnswers: boolean;
   score: number;
 }
 
 interface Exercise {
-  series: Number[];
-  answer: Number;
-  bank: Number[];
-  answerBank: Number[];
-  optionsNumber: Number;
+  series: number[];
+  answer: number;
+  bank: number[];
+  answerBank: number[];
+  optionsNumber: number;
   qSeriesSartFrom: number;
   qSeriesLenght: number;
-  wrongAnswers: Number[];
-  startTime: Number;
-  endTime: Number;
+  wrongAnswers: number[];
+  startTime: number;
+  endTime: number;
   statistics?: Statistics;
 }
 
@@ -101,6 +101,8 @@ export class ExerciseMissingNumberComponent implements OnInit {
   selectAnswer(answer) {
     if (answer === this.exercise.answer) {
       this.exercise.endTime = Date.now();
+      const statistics = this.generateStatistics();
+
       const histortItem = {
         series: this.exercise.series,
         answer: this.exercise.answer,
@@ -111,8 +113,10 @@ export class ExerciseMissingNumberComponent implements OnInit {
         qSeriesLenght: this.exercise.qSeriesLenght,
         wrongAnswers: this.exercise.wrongAnswers,
         startTime: this.exercise.startTime,
-        endTime: this.exercise.endTime
+        endTime: this.exercise.endTime,
+        statistics: statistics
       };
+
 
       this.exerciseHistory.push(histortItem);
 
@@ -124,6 +128,29 @@ export class ExerciseMissingNumberComponent implements OnInit {
       this.exercise.answerBank.splice(answerIndex, 1);
     }
   }
+
+
+  generateStatistics() {
+    // const aaa = new Date(this.exercise.endTime) - new Date(this.exercise.endTime);
+    // console.log('aaa', aaa);
+    const totalTime = (new Date(this.exercise.endTime).getTime() - new Date(this.exercise.startTime).getTime()) / 1000;
+    const wrongAnswers = this.exercise.wrongAnswers.length === 0 ? false : true;
+
+
+    const statistics: Statistics = {
+      wrongAnswers: wrongAnswers,
+      totalTime: totalTime,
+      score: this.getScore()
+    };
+
+    return statistics;
+
+  }
+
+  getScore() {
+    return 4;
+  }
+
 
   // palceDragedAnswer($event: any) {
   //   // console.log($event);
