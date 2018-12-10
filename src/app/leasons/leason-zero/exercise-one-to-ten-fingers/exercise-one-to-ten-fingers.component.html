@@ -6,12 +6,7 @@
   <br>
   <br>
   <br>
-  <div>
-    <button class="button-three">1</button>
-    <button class="button-three">2</button>
-    <button class="button-three">3</button>
-    <button class="button-three">4</button>
-    <button class="button-three">5</button>
+  <div class="container">
+    <button *ngFor="let answer of exercise.answers" (click)="onAnswerClick(answer,$event)" [ngClass]="{'button-three':true, 'button-three-selected': !answer.active}">{{answer.index}}</button>
   </div>
-
 </div>
